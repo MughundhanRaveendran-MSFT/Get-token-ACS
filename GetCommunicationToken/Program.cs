@@ -10,7 +10,7 @@ namespace GetCommunicationToken
     {
         static async Task Main(string[] args)
         {
-            string connectionString = "endpoint=https://mughuacs.communication.azure.com/;accesskey=ms9CMe37Z8gFfWjkuM53TrA8YM0K08kHJ1rKYyDDa9YtXnxbozTeO9nRYKefTvI9lfmiFlQJFgU333CO7wdsYQ==";
+            string connectionString = "ACS connection string here";
             var client = new CommunicationIdentityClient(connectionString);
 
             // Issue an identity and an access token with the "voip" scope for the new identity
