@@ -1,0 +1,379 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "GetCommunicationToken/1.0.0": {
+        "dependencies": {
+          "Azure.Communication.Calling": "1.0.0-beta.29",
+          "Azure.Communication.Identity": "1.0.1"
+        },
+        "runtime": {
+          "GetCommunicationToken.dll": {}
+        }
+      },
+      "Azure.Communication.Calling/1.0.0-beta.29": {
+        "runtime": {
+          "lib/netcoreapp3.0/Azure.Communication.Calling.winmd": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netcoreapp3.0/Azure.WinRT.Communication.winmd": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/netcoreapp3.0/Azure.WinRT.Core.winmd": {
+            "assemblyVersion": "255.255.255.255",
+            "fileVersion": "0.0.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win10-arm64/native/Azure.Communication.Calling.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Azure.WinRT.Communication.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/Azure.WinRT.Core.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/RTMPLTFM.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-arm64/native/RtmCodecs.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-arm64/native/RtmMediaManager.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-arm64/native/RtmMvrUap.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/RtmPal.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-arm64/native/VideoN.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-arm64/native/skypert.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-arm64/native/ssScreenVVS2.dll": {
+            "rid": "win10-arm64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/Azure.Communication.Calling.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Azure.WinRT.Communication.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/Azure.WinRT.Core.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/RTMPLTFM.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/RtmCodecs.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/RtmMediaManager.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/RtmMvrUap.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/RtmPal.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/VideoN.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x64/native/skypert.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x64/native/ssScreenVVS2.dll": {
+            "rid": "win10-x64",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/Azure.Communication.Calling.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Azure.WinRT.Communication.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/Azure.WinRT.Core.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/RTMPLTFM.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/RtmCodecs.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/RtmMediaManager.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/RtmMvrUap.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/RtmPal.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/VideoN.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win10-x86/native/skypert.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          },
+          "runtimes/win10-x86/native/ssScreenVVS2.dll": {
+            "rid": "win10-x86",
+            "assetType": "native",
+            "fileVersion": "2021.22.1.38"
+          }
+        }
+      },
+      "Azure.Communication.Common/1.0.0": {
+        "dependencies": {
+          "Azure.Core": "1.14.0",
+          "System.Text.Json": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Communication.Common.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.21.17902"
+          }
+        }
+      },
+      "Azure.Communication.Identity/1.0.1": {
+        "dependencies": {
+          "Azure.Communication.Common": "1.0.0",
+          "Azure.Core": "1.14.0",
+          "System.Text.Json": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Azure.Communication.Identity.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.121.27502"
+          }
+        }
+      },
+      "Azure.Core/1.14.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "1.0.0",
+          "System.Buffers": "4.5.1",
+          "System.Diagnostics.DiagnosticSource": "4.6.0",
+          "System.Memory": "4.5.4",
+          "System.Memory.Data": "1.0.2",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Text.Encodings.Web": "4.7.2",
+          "System.Text.Json": "4.6.0",
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/Azure.Core.dll": {
+            "assemblyVersion": "1.14.0.0",
+            "fileVersion": "1.1400.21.25602"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Buffers/4.5.1": {},
+      "System.Diagnostics.DiagnosticSource/4.6.0": {},
+      "System.Memory/4.5.4": {},
+      "System.Memory.Data/1.0.2": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "4.7.2",
+          "System.Text.Json": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Memory.Data.dll": {
+            "assemblyVersion": "1.0.2.0",
+            "fileVersion": "1.0.221.20802"
+          }
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {},
+      "System.Text.Encodings.Web/4.7.2": {
+        "runtime": {
+          "lib/netstandard2.1/System.Text.Encodings.Web.dll": {
+            "assemblyVersion": "4.0.5.1",
+            "fileVersion": "4.700.21.11602"
+          }
+        }
+      },
+      "System.Text.Json/4.6.0": {},
+      "System.Threading.Tasks.Extensions/4.5.2": {}
+    }
+  },
+  "libraries": {
+    "GetCommunicationToken/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Azure.Communication.Calling/1.0.0-beta.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gUzeaa3lYrZhrlRNX/cR5+jzioX4UsplzSbwjy2CaeD1/Xy5z8TE/W8KNbZYd5wTP5X1X58n6MbSqYADjvWWYA==",
+      "path": "azure.communication.calling/1.0.0-beta.29",
+      "hashPath": "azure.communication.calling.1.0.0-beta.29.nupkg.sha512"
+    },
+    "Azure.Communication.Common/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z+JnYe2YLdCB2yjhAaailjMeI7/hge0OuXG8+A7eKzbE0KysbLzFKdYqSPWRN/lqAw1/TKvcTc+TWPGpzkyefg==",
+      "path": "azure.communication.common/1.0.0",
+      "hashPath": "azure.communication.common.1.0.0.nupkg.sha512"
+    },
+    "Azure.Communication.Identity/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gNEofMgXp+LEnJ8E1rvpepsoHEmvx4TZ56CjjHnZoxkLI3ufSVBNzxPepW1TdyKgtzqeenOyUWWbRlzHLRFI8A==",
+      "path": "azure.communication.identity/1.0.1",
+      "hashPath": "azure.communication.identity.1.0.1.nupkg.sha512"
+    },
+    "Azure.Core/1.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kUMUOZX4FcmfHmy7OjyP5LovO5FMXco9uUYB76l77mtqMVbZ0cLobv+XCy/j6LpStc8cZo2sI1+dMXhk0YROEQ==",
+      "path": "azure.core/1.14.0",
+      "hashPath": "azure.core.1.14.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-K63Y4hORbBcKLWH5wnKgzyn7TOfYzevIEwIedQHBIkmkEBA9SCqgvom+XTuE+fAFGvINGkhFItaZ2dvMGdT5iw==",
+      "path": "microsoft.bcl.asyncinterfaces/1.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.1.0.0.nupkg.sha512"
+    },
+    "System.Buffers/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "path": "system.buffers/4.5.1",
+      "hashPath": "system.buffers.4.5.1.nupkg.sha512"
+    },
+    "System.Diagnostics.DiagnosticSource/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mbBgoR0rRfl2uimsZ2avZY8g7Xnh1Mza0rJZLPcxqiMWlkGukjmRkuMJ/er+AhQuiRIh80CR/Hpeztr80seV5g==",
+      "path": "system.diagnostics.diagnosticsource/4.6.0",
+      "hashPath": "system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "path": "system.memory/4.5.4",
+      "hashPath": "system.memory.4.5.4.nupkg.sha512"
+    },
+    "System.Memory.Data/1.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGkzeqgBsiZwKJZ1IxPNsDFZDhUvuEdX8L8BDC8N3KOj+6zMcNU28CNN59TpZE/VJYy9cP+5M+sbxtWJx3/xtw==",
+      "path": "system.memory.data/1.0.2",
+      "hashPath": "system.memory.data.1.0.2.nupkg.sha512"
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "path": "system.numerics.vectors/4.5.0",
+      "hashPath": "system.numerics.vectors.4.5.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.7.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iTUgB/WtrZ1sWZs84F2hwyQhiRH6QNjQv2DkwrH+WP6RoFga2Q1m3f9/Q7FG8cck8AdHitQkmkXSY8qylcDmuA==",
+      "path": "system.text.encodings.web/4.7.2",
+      "hashPath": "system.text.encodings.web.4.7.2.nupkg.sha512"
+    },
+    "System.Text.Json/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4F8Xe+JIkVoDJ8hDAZ7HqLkjctN/6WItJIzQaifBwClC7wmoLSda/Sv2i6i1kycqDb3hWF4JCVbpAweyOKHEUA==",
+      "path": "system.text.json/4.6.0",
+      "hashPath": "system.text.json.4.6.0.nupkg.sha512"
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "hashPath": "system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    }
+  }
+}
